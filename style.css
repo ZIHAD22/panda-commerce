@@ -51,3 +51,27 @@
 .shoes-btn {
   margin-top: 5px;
 }
+.card-footer {
+  background-color: white;
+  border-top: none;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: -2px 2px 37px -20px grey;
+  border: none;
+}
+.card-footer .shoes-btn {
+  margin-bottom: 20px;
+}
+#subcribe {
+  height: 300px;
+}
+#subcribe h6 {
+  color: gray;
+}
+.btn-subc {
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+}
