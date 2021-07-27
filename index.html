@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Panda Commerce</title>
+    <link rel="shortcut icon" href="./images/flogo.png" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,7 +15,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container container-botom">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -59,8 +60,8 @@
         data-bs-ride="carousel"
       >
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row d-flex align-items-center">
+          <div class="carousel-item active" data-interval="1000">
+            <div class="row row-height align-items-center">
               <div class="col-md-7">
                 <h1>Mega LCD TV For Sports</h1>
                 <p>
@@ -79,8 +80,8 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="row d-flex align-items-center">
+          <div class="carousel-item" data-interval="1000">
+            <div class="row row-height align-items-center">
               <div class="col-md-7">
                 <h1>Cool Dude Headphone</h1>
                 <p>
@@ -93,14 +94,14 @@
               <div class="col-md-5">
                 <img
                   src="./images/banner-images/headphone.png"
-                  class="d-block w-100"
+                  class="d-block w-100 img-fluid"
                   alt="..."
                 />
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="row d-flex align-items-center">
+          <div class="carousel-item" data-interval="1000">
+            <div class="row row-height align-items-center">
               <div class="col-md-7">
                 <h1>X-Box for your living room</h1>
                 <p>
@@ -143,23 +144,29 @@
 
     <div class="container categories">
       <div class="row">
-        <div class="col-md-4">
-          <div class="d-flex justify-content-between align-items-center cat1">
-            <h1>Watch</h1>
-            <img src="./images/categories/watch.png" alt="" />
-          </div>
+        <div class="col-md-4 pointer">
+          <a href="#watch">
+            <div class="d-flex justify-content-between align-items-center cat1">
+              <h1>Watch</h1>
+              <img src="./images/categories/watch.png" alt="" />
+            </div>
+          </a>
         </div>
-        <div class="col-md-4">
-          <div class="d-flex justify-content-between align-items-center cat2">
-            <h1>Bag</h1>
-            <img src="./images/categories/bag.png" alt="" />
-          </div>
+        <div class="col-md-4 pointer">
+          <a href="#backpack">
+            <div class="d-flex justify-content-between align-items-center cat2">
+              <h1>Bag</h1>
+              <img src="./images/categories/bag.png" alt="" />
+            </div>
+          </a>
         </div>
-        <div class="col-md-4">
-          <div class="d-flex justify-content-between align-items-center cat3">
-            <h1>Shoes</h1>
-            <img src="./images/categories/shoes.png" alt="" />
-          </div>
+        <div class="col-md-4 pointer">
+          <a href="#shoes">
+            <div class="d-flex justify-content-between align-items-center cat3">
+              <h1>Shoes</h1>
+              <img src="./images/categories/shoes.png" alt="" />
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -311,7 +318,7 @@
     </div>
     <footer>
       <small
-        >©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small
+        >©2022. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small
       >
     </footer>
     <script
