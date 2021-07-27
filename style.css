@@ -1,12 +1,28 @@
 .container {
   margin-bottom: 100px;
 }
+.container-botom {
+  margin-bottom: 27px;
+}
 .pink-bg {
   background-color: #fceae8;
   border-radius: 10px;
 }
+.carousel-control-next,
+.carousel-control-prev {
+  width: 4%;
+}
+.carousel-control-next-icon {
+  background-color: black;
+}
+.carousel-control-prev-icon {
+  background-color: black;
+}
 .carousel-item {
   padding: 20px 40px;
+}
+.carousel img {
+  width: 100%;
 }
 .pink-price {
   color: #ff136f;
@@ -34,11 +50,18 @@
 .cat3 {
   background-color: blue;
 }
+.pointer {
+  cursor: pointer;
+  margin-top: 30px;
+}
 .categories h1 {
   color: white;
 }
 .categories img {
   width: 100px;
+}
+.categories a {
+  text-decoration: none;
 }
 .card-box {
   border: none;
@@ -74,4 +97,18 @@
 }
 footer {
   text-align: center;
+}
+.row-height {
+  height: 500px;
+}
+
+@media (max-width: 767px) {
+  .row-height img {
+    height: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .row-height img {
+    height: 200px;
+  }
 }
